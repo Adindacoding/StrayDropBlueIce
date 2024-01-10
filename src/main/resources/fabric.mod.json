@@ -3,9 +3,9 @@
 	"id": "straydropice",
 	"version": "${version}",
 	"name": "StrayDropIce",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Stray will now drop blue ice",
 	"authors": [
-		"Me!"
+		"Adinda"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"net.adinda.straydropice.StrayDropIce"
+		],
+		"client": [
+			"net.adinda.straydropice.StrayDropIceClient"
 		],
 		"fabric-datagen": [
 			"net.adinda.straydropice.StrayDropIceDataGenerator"
