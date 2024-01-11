@@ -1,5 +1,6 @@
 package net.adinda.straydropice;
 
+import net.adinda.straydropice.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +13,7 @@ public class StrayDropIce implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModLootTableModifiers.modifyLootTables();
 
 		LOGGER.info("Hello Fabric world!");
 	}
